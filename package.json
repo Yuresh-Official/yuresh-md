@@ -1,0 +1,63 @@
+{
+  "name": "TitanX-MD",
+  "version": "1.0.0",
+  "description": "A Simple WhatsApp bot created By Dushan",
+  "main": "titanx-md.js",
+  "scripts": {
+    "start": "pm2 start titanx-md.js --deep-monitoring --attach --name titanx-md",
+    "stop": "pm2 stop titanx-md",
+    "restart": "pm2 restart titanx-md"
+  },
+  
+  "dependencies": {
+                     "@whiskeysockets/baileys": "^6.7.18",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "util": "^0.12.4",
+    "express": "latest",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "megajs": "^1.1.0",
+       "puppeteer": "^22.0.0",
+    
+    
+    "vm": "^0.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "moment-timezone": "^0.5.34",
+    "jimp": "^0.16.1",
+    
+    "api-dylux": "latest",
+    "cheerio": "^1.0.0-rc.12",
+    "google-tts-api": "^2.0.2",
+    "wa-sticker-formatter": "^4.3.2",
+    
+"css-select": "^4.3.0",
+        "axios": "^1.7.2",
+    
+            
+             "secktor-pack": "latest",
+    "child_process": "^1.0.2",
+    "mongoose":"8.9.4",
+    
+    "form-data": "^4.0.0",
+    "file-type": "^16.5.3",
+
+    
+    
+
+        "@hapi/boom": "^10.0.1",
+
+
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2"
+    
+    
+  }
+}
+
+
+                       

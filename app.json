@@ -1,0 +1,18 @@
+{
+  "name": "TitanX-MD",
+  "description": "JavaScript WhatsApp bot made by Dushan. මෙය WhatsApp බොට් එකක් වන අතර auto read, typing, record, react වැනි විශේෂාංග සහිත වේ.",
+  "keywords": ["bot", "WhatsApp", "Baileys", "Dushan"],
+  "success_url": "/",
+  "env": {
+    "SESSION_ID": {
+      "description": "ඔබගේ SESSION_ID මෙතැනට ඇතුළත් කරන්න.",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}

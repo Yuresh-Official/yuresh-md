@@ -1,1 +1,1 @@
-# yuresh-md
+# GoldenQueen-MINI-VERSION
